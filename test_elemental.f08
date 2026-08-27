@@ -7,7 +7,7 @@ elemental function t1(a, b) result(fout)
 real , intent(in) :: a, b
 real              :: fout
 
-call writeout( 'START t1', 0)
+call writeout( 'START t1, t2', 0)
 
 fout = a+b
 
